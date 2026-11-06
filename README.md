@@ -30,7 +30,7 @@ Requires OpenCode Desktop 2.2 or newer.
 ### From GitHub
 
 ```bash
-opencode plugin add github:YOUR_GITHUB_USERNAME/opencode-custom-providers
+opencode plugin add github:mrsinasky/OpenCode-Custom-Providers
 ```
 
 Or add the spec to your global config (`~/.config/opencode/opencode.json`,
@@ -38,7 +38,7 @@ on Windows `%USERPROFILE%\.config\opencode\opencode.json`):
 
 ```jsonc
 {
-  "plugins": ["github:YOUR_GITHUB_USERNAME/opencode-custom-providers"]
+  "plugins": ["github:YOUR_GITHUB_USERNAME/OpenCode-Custom-Providers"]
 }
 ```
 
@@ -47,14 +47,14 @@ Then restart OpenCode Desktop once. Open **Settings → Custom providers**.
 ### From npm
 
 ```bash
-opencode plugin add opencode-custom-providers
+opencode plugin add OpenCode-Custom-Providers
 ```
 
 ### From a local clone
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/opencode-custom-providers.git
-cd opencode-custom-providers
+git clone https://github.com/YOUR_GITHUB_USERNAME/OpenCode-Custom-Providers.git
+cd OpenCode-Custom-Providers
 npm install
 npm run build
 ```
@@ -63,7 +63,7 @@ Then point the config at the folder:
 
 ```jsonc
 {
-  "plugins": ["C:\\path\\to\\opencode-custom-providers"]
+  "plugins": ["C:\\path\\to\\OpenCode-Custom-Providers"]
 }
 ```
 
