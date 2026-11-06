@@ -10,6 +10,8 @@ which models show up in the model picker.
 
 The plugin UI ships in English and Farsi.
 
+<img src="docs/custom-providers.png" alt="Custom providers settings page" width="860" />
+
 ## Features
 
 - Add providers with name, ID, base URL, API key and API compatibility
@@ -44,16 +46,12 @@ on Windows `%USERPROFILE%\.config\opencode\opencode.json`):
 
 Then restart OpenCode Desktop once. Open **Settings → Custom providers**.
 
-### From npm
-
-```bash
-opencode plugin add OpenCode-Custom-Providers
 ```
 
 ### From a local clone
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/OpenCode-Custom-Providers.git
+git clone https://github.com/mrsinasky/OpenCode-Custom-Providers.git
 cd OpenCode-Custom-Providers
 npm install
 npm run build
