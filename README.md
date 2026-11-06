@@ -38,7 +38,7 @@ on Windows `%USERPROFILE%\.config\opencode\opencode.json`):
 
 ```jsonc
 {
-  "plugins": ["github:YOUR_GITHUB_USERNAME/OpenCode-Custom-Providers"]
+  "plugins": ["github:mrsinasky/OpenCode-Custom-Providers"]
 }
 ```
 
