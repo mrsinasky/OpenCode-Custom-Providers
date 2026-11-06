@@ -4,6 +4,10 @@
   "description": "OpenCode Desktop plugin that adds, edits and removes OpenAI-compatible providers from a GUI.",
   "license": "MIT",
   "author": "Sina Asemani",
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/mrsinasky/OpenCode-Custom-Providers.git"
+},
   "type": "module",
   "exports": {
     ".": "./src/index.ts",
