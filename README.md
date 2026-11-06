@@ -10,7 +10,7 @@ which models show up in the model picker.
 
 The plugin UI ships in English and Farsi.
 
-<img src="docs/custom-providers.png" alt="Custom providers settings page" width="860" />
+<img src="docs/customproviders.png" alt="Custom providers settings page" width="860" />
 
 ## Features
 
